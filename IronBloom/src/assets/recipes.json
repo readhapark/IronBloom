@@ -1,0 +1,15 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Recipe Name",
+      "category": "Category",
+      "ingredients": ["ingredient1", "ingredient2"],
+      "iron_mg": 10,
+      "dietary_preferences": ["vegetarian"],
+      "allergies": [],
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 30
+    }
+  ]
+}
