@@ -2,14 +2,50 @@
   "recipes": [
     {
       "id": 1,
-      "name": "Recipe Name",
-      "category": "Category",
-      "ingredients": ["ingredient1", "ingredient2"],
-      "iron_mg": 10,
+      "name": "Spinach Chickpea Curry",
+      "category": "Dinner",
+      "ingredients": ["spinach", "chickpeas", "onion", "cloves", "cumin", "turmeric", "salt","pepper"],
+      "iron_mg": 4.2,
       "dietary_preferences": ["vegetarian"],
-      "allergies": [],
-      "prep_time_minutes": 15,
-      "cook_time_minutes": 30
+      "allergies": ["none"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20
+    },
+      {
+      "id": 2,
+      "name": "Beef and Broccoli Stir Fry",
+      "category": "Dinner",
+      "ingredients": [
+        "1 cup broccoli",
+        "6 oz sliced beef",
+        "1 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 garlic clove",
+        "1 tsp ginger"
+      ],
+      "iron_mg": 2.8,
+      "dietary_preferences": ["meat"],
+      "allergies": ["soy"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10
+    },
+    {
+      "id": 3,
+      "name": "Lentil Soup",
+      "category": "Breakfast",
+      "ingredients": [
+        "1 cup red lentils",
+        "1 carrot",
+        "1 celery stalk",
+        "1 onion",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "iron_mg": 6.6,
+      "dietary_preferences": ["vegetarian"],
+      "allergies": ["none"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25
     }
   ]
 }
