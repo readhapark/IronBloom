@@ -1,0 +1,187 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spinach Chickpea Curry",
+      "category": "Dinner",
+      "ingredients": [
+        "2 cups spinach",
+        "1 can chickpeas",
+        "1 onion",
+        "2 garlic cloves",
+        "1/2 teaspoon red chili powder.",
+        "1/2 tsp cumin",
+        "1 tsp turmeric",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Chop the onion and garlic.",
+        "In a pan, heat some oil and saute onion and garlic until soft.",
+        "Add cumin, red chili powder, and turmeric, stir for 1 minute.",
+        "Drain and rinse chickpeas, add to the pan.",
+        "Add spinach and cook until wilted.",
+        "Season with salt and pepper.",
+        "Serve warm with rice or flatbread."
+      ],
+      "iron_mg": 4.2,
+      "dietary_preference": ["vegan"],
+      "allergies": ["none"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 20
+    },
+    {
+      "id": 2,
+      "name": "Beef and Broccoli Stir Fry",
+      "category": "Dinner",
+      "ingredients": [
+        "1 cup broccoli",
+        "6 oz sliced beef",
+        "1 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 garlic clove",
+        "1 tsp ginger"
+      ],
+      "instructions": [
+        "Chop broccoli into bite-sized pieces.",
+        "Mince garlic and ginger.",
+        "Heat sesame oil in a pan or wok over medium-high heat.",
+        "Add beef slices and stir-fry until browned.",
+        "Add garlic and ginger, cook for 1 minute.",
+        "Add broccoli and soy sauce, stir-fry until broccoli is tender-crisp.",
+        "Serve with hot rice or noodles."
+      ],
+      "iron_mg": 2.8,
+      "dietary_preference": ["meat"],
+      "allergies": ["soy"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 10
+    },
+    {
+      "id": 3,
+      "name": "Lentil Soup",
+      "category": "Breakfast",
+      "ingredients": [
+        "1 cup red lentils",
+        "1 carrot",
+        "1 celery stalk",
+        "1 onion",
+        "2-3 cloves garlic",
+        "1 tbsp olive oil",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Dice carrot, celery, and onion.",
+        "Crush garlic.",
+        "Heat olive oil in a pot and saute vegetables until softened.",
+        "Add chopped garlic add saute 1 minute.",
+        "Add red lentils and enough water or broth to cover.",
+        "Bring to a boil, then reduce heat and simmer until lentils are tender (about 20 minutes).",
+        "Season with salt and pepper.",
+        "Optional: blend slightly for smoother soup.",
+        "Serve warm."
+      ],
+      "iron_mg": 6.6,
+      "dietary_preference": ["vegetarian"],
+      "allergies": ["none"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25
+    },
+    {
+      "id": 4,
+      "name": "Foul Mudammas",
+      "category": "Breakfast",
+      "ingredients": [
+        "1 can Cooked fava beans",
+        "1 tbsp Olive oil",
+        "1 tsp Garlic",
+        "1 Lemon, juice",
+        "1 large Tomato (diced)",
+        "Parsley (chopped)",
+        "1/2 tsp Cumin",
+        "1/2 tsp red chili pepper",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Warm the cooked fava beans in a small pot until soft.",
+        "Mash lightly with a fork while leaving some beans whole.",
+        "Stir in garlic, lemon juice, olive oil, salt, and cumin.",
+        "Mix in the diced tomato and parsley.",
+        "Serve warm with pita bread."
+      ],
+      "iron_mg": 5.2,
+      "dietary_preference": ["vegetarian"],
+      "allergies": ["none"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 15
+    },
+    {
+      "id": 5,
+      "name": "Avocado Pudding Dessert",
+      "category": "Dessert",
+      "ingredients": [
+        " 2 ripe Avocado",
+        "1/2 cup Milk, cream, or non-dairy milk",
+        "2-3 tbsp Honey or maple syrup",
+        "1 tbsp Cocoa powder (optional)",
+        "1 tsp Vanilla extract",
+        "1 tsp Lemon juice",
+        "Pinch of Salt"
+      ],
+      "instructions": [
+        "Scoop the avocado flesh into a blender.",
+        "Add milk, sweetener, vanilla, lemon juice, and salt.",
+        "Blend until smooth.",
+        "Chill 30 minutes before serving."
+      ],
+      "iron_mg": 1.1,
+      "dietary_preference": ["vegetarian"],
+      "allergies": ["Dairy, honey"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0
+    },
+    {
+      "id": 6,
+      "name": "Blackstrap Molasses Energy Bites",
+      "category": "Dessert",
+      "ingredients": [
+        "1 cup Oats",
+        "1/2 cup Almond butter",
+        "2 tbsp Blackstrap molasses",
+        "1 tbsp Chia seeds",
+        "1 tbsp Cocoa powder"
+      ],
+      "instructions": [
+        "Mix oats, almond butter, molasses, chia seeds, and cocoa powder.",
+        "Roll into small balls.",
+        "Chill 20 minutes before eating."
+      ],
+      "iron_mg": 3.0,
+      "dietary_preference": ["vegan"],
+      "allergies": ["Nuts"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 0
+    },
+    {
+      "id": 7,
+      "name": "Dark Chocolate Chia Pudding",
+      "category": "Dessert",
+      "ingredients": [
+        "1/4 cup Chia seeds",
+        "2 tbsp Cocoa powder",
+        "1 cup Milk or plant milk",
+        "1 tbsp Maple syrup",
+        "1 tbsp. grated Dark chocolate (70%)"
+      ],
+      "instructions": [
+        "Mix chia seeds, cocoa powder, milk, and sweetener.",
+        "Stir well and refrigerate 2 to 3 hours or overnight.",
+        "Top with grated dark chocolate before serving."
+      ],
+      "iron_mg": 2.2,
+      "dietary_preference":["vegan"],
+      "allergies": ["Nuts"],
+      "prep_time_minutes": 5,
+      "cook_time_minutes": 0
+    }
+  ]
+}
