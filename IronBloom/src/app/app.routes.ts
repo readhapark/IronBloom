@@ -3,6 +3,7 @@ import { RecipeLibrary } from './recipe-library/recipe-library';
 import { Home } from './home/home';
 import { RecipeDetails } from './recipe-details/recipe-details';
 import { CoachChat } from './coach-chat/coach-chat';
+import { Tracker } from './tracker/tracker';
 
 export const routes: Routes = [
     {
@@ -20,6 +21,10 @@ export const routes: Routes = [
       path: 'coach', 
       component: CoachChat
     },  
+    {
+    path: 'tracker',
+    component: Tracker
+    },
     {
     path: '**',
     redirectTo: ''
