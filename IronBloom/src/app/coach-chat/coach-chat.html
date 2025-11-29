@@ -1,0 +1,60 @@
+<section class="chat-page">
+  <header class="chat-header">
+    <button class="back-link" routerLink="/">
+      ← Back to Home
+    </button>
+    <h1 class="chat-title">Iron-Aware Coach</h1>
+    <p class="chat-subtitle">
+      Ask about iron-rich meals, combining foods for better absorption, or how
+      your recipes fit into your day.
+    </p>
+  </header>
+
+  <div class="chat-card">
+    <div class="chat-messages">
+      <div
+        *ngFor="let msg of messages"
+        class="chat-bubble"
+        [ngClass]="{
+          'chat-bubble-user': msg.role === 'user',
+          'chat-bubble-assistant': msg.role === 'assistant'
+        }"
+      >
+        <div class="chat-role">
+          {{ msg.role === 'user' ? 'You' : 'Iron Coach' }}
+        </div>
+        <div class="chat-content">
+          {{ msg.content }}
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-footer">
+      <textarea
+        class="chat-input"
+        [(ngModel)]="userInput"
+        [disabled]="isSending"
+        rows="2"
+        placeholder="Ask something like: “How can I get more iron at breakfast using the Lentil Soup recipe?”"
+      ></textarea>
+
+      <button
+        class="btn-primary chat-send"
+        type="button"
+        (click)="sendMessage()"
+        [disabled]="isSending || !userInput.trim()"
+      >
+        {{ isSending ? 'Thinking…' : 'Ask Coach' }}
+      </button>
+    </div>
+
+    <p class="chat-error" *ngIf="errorMessage">
+      {{ errorMessage }}
+    </p>
+
+    <p class="chat-disclaimer">
+      This assistant does not give medical advice. For iron deficiency, anemia,
+      or other health concerns, please consult a healthcare professional.
+    </p>
+  </div>
+</section>

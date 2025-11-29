@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { RecipeLibrary } from './recipe-library/recipe-library';
 import { Home } from './home/home';
 import { RecipeDetails } from './recipe-details/recipe-details';
+import { CoachChat } from './coach-chat/coach-chat';
 
 export const routes: Routes = [
     {
@@ -15,6 +16,10 @@ export const routes: Routes = [
     { 
       path: 'recipes/:id', 
       component: RecipeDetails },
+    { 
+      path: 'coach', 
+      component: CoachChat
+    },  
     {
     path: '**',
     redirectTo: ''
