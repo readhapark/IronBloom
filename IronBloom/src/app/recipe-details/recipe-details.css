@@ -4,6 +4,10 @@
   padding: 2.5rem 0 1.5rem;
 }
 
+.recipe-header{
+  margin-bottom: 1.4rem;
+}
+
 .details-page {
   background: rgba(251, 238, 233, 0.8);
   border-radius: 18px;
@@ -90,6 +94,11 @@
   font-size: 0.9rem;
   color: var(--text-main);
 }
+.instructions-section{
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
 
 .status-text {
   font-size: 0.9rem;

@@ -14,6 +14,7 @@ interface Recipe {
   allergies: string[];
   prep_time_minutes: number;
   cook_time_minutes: number;
+  instructions: string; 
 }
 
 

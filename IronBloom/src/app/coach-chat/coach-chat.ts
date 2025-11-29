@@ -87,7 +87,7 @@ Encourage users to talk to a healthcare professional for medical concerns.
     }, 600); // 0.6s fake delay
   }
 
-  // Very simple local “AI”: pattern-based responses using your iron facts.
+  // Local AI pattern-based responses using iron facts.
   private buildLocalReply(question: string): string {
     const q = question.toLowerCase();
 
@@ -114,7 +114,7 @@ Encourage users to talk to a healthcare professional for medical concerns.
     if (q.includes('spinach') || q.includes('chickpea') || q.includes('curry')) {
       return (
         "Spinach Chickpea Curry is a great non-heme iron option (about 4.2 mg iron in your recipe list). " +
-        "To get the most from it, serve it with a vitamin C source—like a squeeze of lemon, a side of bell peppers, " +
+        "Find the recipe in our recipe library! To get the most from it, serve it with a vitamin C source—like a squeeze of lemon, a side of bell peppers, " +
         "or a small citrus salad. That combination helps your body absorb more of the iron from the curry."
       );
     }

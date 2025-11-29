@@ -1,8 +1,23 @@
+
+<section class="recipe-page">
+  <header class="recipe-header">
+
+    <button class="back-link" routerLink="/">
+      ← Back to Home
+    </button>
+
+    <h1 class="recipe-title">Recipe Library</h1>
+    <p class="recipe-subtitle">
+      Browse iron-rich recipes and tap a card to see full details.
+    </p>
+
+  </header>
+
 <div class="recipe-container">
   <input
     type="text"
     [(ngModel)]="searchTerm"
-    placeholder="Search recipes..."
+    placeholder="Search recipes by name, ingredient or category(Breakfast, Lunch or Dinner)..."
     class="search-input"
   />
 
@@ -29,4 +44,4 @@
     No recipes found.
   </div>
 </div>
-
+</section>

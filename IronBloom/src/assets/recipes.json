@@ -9,7 +9,8 @@
       "dietary_preferences": ["vegetarian"],
       "allergies": ["none"],
       "prep_time_minutes": 10,
-      "cook_time_minutes": 20
+      "cook_time_minutes": 20,
+      "instructions":"1. Sauté diced onion and minced garlic in olive oil until translucent. 2. Add spices (cumin, turmeric, salt, pepper) and cook for 1 minute. 3. Add chickpeas and spinach, cook until spinach is wilted and chickpeas are heated through."
     },
       {
       "id": 2,
@@ -27,7 +28,8 @@
       "dietary_preferences": ["meat"],
       "allergies": ["soy"],
       "prep_time_minutes": 10,
-      "cook_time_minutes": 10
+      "cook_time_minutes": 10,
+      "instructions":"1. If using dried fava beans, soak them overnight and cook until tender. If using canned, rinse and drain them. 2. In a bowl, mash the fava beans with minced garlic, diced green bell pepper, diced roma tomato, and diced red onion. 3. Add tahini, extra virgin olive oil, cumin, salt, and black pepper to the mixture. Mix well to combine. 4. Adjust seasoning with cayenne pepper to taste. 5. Serve the Ful Medames warm or at room temperature, optionally with whole-grain pita bread on the side."
     },
     {
       "id": 3,
@@ -45,7 +47,32 @@
       "dietary_preferences": ["vegetarian"],
       "allergies": ["none"],
       "prep_time_minutes": 10,
-      "cook_time_minutes": 25
+      "cook_time_minutes": 25,
+      "instructions": "1. Sauté diced onion, carrot, and celery in olive oil until softened. 2. Add lentils and water (4 cups). Bring to a boil, then simmer for 20 minutes until lentils are tender. 3. Season with salt and pepper to taste."
+    },
+    {
+      "id": 4,
+      "name": "Ful Medames",
+      "category": "Breakfast",
+      "ingredients": [
+        "Fava beans (dried or canned) - 2 cups",
+        "Garlic - 2-3 cloves",
+        "Green bell pepper - 1/2 Diced",
+        "Roma tomato - 1 Diced",
+        "Red onion - 1/2 Diced",
+        "Salt and pepper",
+        "Tahini (sesame paste) - 2 Tbsp",
+        "Extra virgin olive oil - 1 Tbsp",
+        "Cumin - 1 tsp",
+        "Cayenne pepper - To taste",
+        "Pita bread (optional) - 1 piece"
+      ],
+      "iron_mg": 4.5,
+      "dietary_preferences": ["vegetarian"],
+      "allergies": ["sesame", "gluten"],
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 25,
+      "instructions": "1. If using dried fava beans, soak them overnight and cook until tender. If using canned, rinse and drain them. 2. In a bowl, mash the fava beans with minced garlic, diced green bell pepper, diced roma tomato, and diced red onion. 3. Add tahini, extra virgin olive oil, cumin, salt, and black pepper to the mixture. Mix well to combine. 4. Adjust seasoning with cayenne pepper to taste. 5. Serve the Ful Medames warm or at room temperature, optionally with whole-grain pita bread on the side."
     }
   ]
 }
