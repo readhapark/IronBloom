@@ -1,0 +1,15 @@
+<div class="tracker-container">
+  <label for="food-select">Select a food:</label>
+  <select id="food-select" [(ngModel)]="selectedFood">
+    <option [ngValue]="null">Choose...</option>
+    <option *ngFor="let food of foods" [ngValue]="food">{{ food.name }}</option>
+  </select>
+  <button (click)="addFood()" [disabled]="!selectedFood">Add</button>
+
+  <h3>Today's Foods:</h3>
+  <ul>
+    <li *ngFor="let food of selectedFoods">{{ food.name }} ({{ food.iron }} mg iron)</li>
+  </ul>
+
+  <p *ngIf="selectedFoods.length">Estimated total iron intake: <strong>{{ totalIron() }} mg</strong></p>
+</div>

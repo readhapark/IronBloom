@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { RecipeLibrary } from './recipe-library/recipe-library';
 import { Home } from './home/home';
 import { RecipeDetails } from './recipe-details/recipe-details';
+import { Tracker } from './tracker/tracker';
 
 export const routes: Routes = [
     {
@@ -18,5 +19,9 @@ export const routes: Routes = [
     {
     path: '**',
     redirectTo: ''
+    },
+    {
+    path: 'tracker',
+    component: Tracker
     }
 ];
