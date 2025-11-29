@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-tracker',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './tracker.html',
-  styleUrl: './tracker.css',
+  styleUrls: './tracker.css',
 })
 export class Tracker {
 

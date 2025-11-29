@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+<<<<<<< HEAD
 import { RecipeLibrary } from './recipe-library/recipe-library';
 import { Home } from './home/home';
 import { RecipeDetails } from './recipe-details/recipe-details';
@@ -18,5 +19,13 @@ export const routes: Routes = [
     {
     path: '**',
     redirectTo: ''
+=======
+import { Tracker } from './tracker/tracker';
+
+export const routes: Routes = [
+    {
+        path: 'tracker',
+        component: Tracker
+>>>>>>> efaf990 (fix)
     }
 ];
